@@ -1,0 +1,30 @@
+theme = "TokyoNight Night"
+#theme="Cobalt Neon"
+#theme = "Solarized Dark Higher Contrast"
+
+
+link-url = true
+shell-integration = zsh
+#font-family = "JetBrainsMono Nerd Font Mono"
+font-size = 20
+background-opacity = 0.98
+unfocused-split-opacity = 0.85
+
+
+confirm-close-surface = false
+macos-titlebar-style = tabs
+window-save-state = always
+foreground = "#16C47F"
+
+desktop-notifications = true
+
+cursor-style-blink = true
+mouse-hide-while-typing = true
+copy-on-select = true
+cursor-click-to-move = true
+
+shell-integration-features = "no-cursor"
+
+auto-update-channel = tip
+
+keybind = global:ctrl+backquote=toggle_quick_terminal

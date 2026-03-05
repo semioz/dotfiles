@@ -1,0 +1,72 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    },
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      // "j k": "vim::NormalBefore"
+    },
+  },
+  {
+    "context": "(ProjectPanel && not_editing)",
+    "bindings": {
+      "cmd-m": "project_panel::Open"
+    }
+  },
+  {
+    "bindings": {
+      "shift-tab shift-y": "zed::Minimize"
+    }
+  },
+  {
+    "bindings": {
+      "tab j": "zed::Minimize"
+    }
+  },
+  {
+    "bindings": {
+      "alt-shift-u": "zed::Minimize"
+    }
+  },
+  {
+    "context": "SettingsWindow",
+    "bindings": {
+      "alt-shift-g": "settings_editor::Minimize"
+    }
+  },
+  {
+    "context": "(ProjectPanel && not_editing)",
+    "bindings": {
+      "alt-t": "project_panel::Open"
+    }
+  },
+  {
+    "context": "(Editor && edit_prediction_conflict)",
+    "bindings": {
+      "tab enter": "editor::AcceptEditPrediction"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-,": "agent::ToggleFocus"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-,": "agent::ToggleFocus"
+    }
+  }
+]

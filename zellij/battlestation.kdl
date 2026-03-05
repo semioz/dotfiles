@@ -1,0 +1,22 @@
+layout {
+  tab name="battlestation" focus=true hide_floating_panes=true {
+    pane split_direction="vertical" {
+
+      // LEFT COLUMN — 30%
+      pane size="30%" {
+        pane cwd="dev" size="50%"
+        pane cwd="dev" size="50%"
+      }
+
+      // MAIN COLUMN — 45%
+      pane size="45%" focus=true cwd="dev"
+
+      // RIGHT COLUMN — 25%
+      pane size="25%" {
+        pane cwd="dev" size="50%"
+        pane cwd="dev" size="50%"
+      }
+    }
+  }
+}
+
